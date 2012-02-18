@@ -1,0 +1,161 @@
+Rune Co-Op Mod v1.2 for linux
+
+
+
+----------------
+INSTALLATION
+----------------
+
+You must have the Linux version of Rune already installed in order to
+install the Co-op mod.
+
+Log in (as root if you installed Rune as root)
+ Type 'sh setup.sh' to run the install script.
+
+
+----------------
+TO PLAY
+----------------
+
+Simply start rune, go to multiplayer, pick server, game type Coop.
+Make sure that coop is also installed on the person's machine that is joining your server.
+
+
+-----------------------------------------------------
+Thanks to Rick "Dark" Francis for getting me the files I needed to put this installer together
+
+
+-Luis 
+(ldog@icculus.org)
+
+
+
+
+
+
+_______________________________________________________________
+README FROM WINDOWS VERSION:
+_______________________________________________________________
+
+Rune Co-Op Mod v1.2
+
+
+"This version replaces the previous Mod and patches, please delete the old Mod and patches. This is the only one needed now".
+
+Many new changes have been incorporated into Co-Op 1.2.  One of the largest changes is 14 of the maps have been split into 2 smaller maps, part 1 and part 2. Splitting these maps made a huge difference in network performance, greatly reducing lag for the server and clients.  We would have split more but there was no way to separate the zones that are being shared on most of the remaining maps without extensive renovation.  Not every map needed to be split either because their current size was small enough. New half way teleporters have also been added to the larger maps, which were split.  Those half ways really help you get back into the action quicker with your buddies.  
+
+The 2nd biggest change is the new addition of the Skeleton Warrior.  This new AI is absolutely one of the best additions to the Mod.  The new Skeleton Warrior will appear in the 1st 17 levels. We replaced him with most of the annoying crabs in the underworld layers to make them more challenging and he also can be found in all of the Hell levels.  This new AI is a great addition to the game and looks absolutely incredible and is guaranteed to kick your butt in combat.  There is also another new AI that we created, the Fire Zombie.  They are fast and they have fire damage, kill them fast!
+
+We waited for a few months to release this patch so we could see all the problems that everyone was having so we could act on those.  There will not be any future patches for Rune Co-Op.  We have spent over 10 months on this project and its time to move on to bigger and better things.
+
+
+More Mod Info
+
+	We have included the entire Mod in this patch; this was done because almost every map had changes or fixes to them.  So to keep from having issues with different versions on the net we decided to release the entire Mod whole as a patch.  We have tested the new split-levels and there is a big difference in network lag.  You will now notice that some maps when selected are listed as part 1 and part 2.  The graphical picture has also been changed in the menu when you select the map for play.  Subtle changes have been made to many levels {like adding more AI in different areas) now that they have been reduced in size.  This really keeps the game moving along.  The existing half way teleporters are still working in the maps that were split; the exits to the half waypoints have been moved.  Overall we think you will be pleased with the new split-levels as they do make a difference in Net play now.  
+
+We want everyone to be aware of something that we have been noticing while playing Rune 
+Co-Op on the Internet.  Every once and a while a players ping will rise up to 4000 to 5000, most noticeably when in water.  If this happens everyone needs to finish what they’re doing and just stop in place for about 30 or 40 seconds. The ping will then fall back down to normal.  We are not sure why this happens, but it is related to the network code. This does not happen often but when it does you need to be aware of it.  Hit your Caps lock key to see your ping times.  If the game is still laggy, then it’s possible that the router between you and the server has a lot of traffic and is the cause of the lag.  Just be aware of the location of the server you might be connecting to.
+
+Running a Server 
+
+A quick note on running a Co-Op server, this is a must! Please do not turn on Automatic Downloads.  This will cause major LAG.  You have been warned.  Ping times will quadruple and you will no doubt sit and wonder why there is so much lag.
+
+You can find this setting in the options under the game tab and select the advanced settings box.  You will be dropped out of the game and you will see a small dialog box click on the Networking + under this you will see the TCP\IP + open it and select Allow Downloads.  This is either True or False.  Select False.  Click on the X on the top right corner and you will be taken back into the game.  You will need to restart for the setting to take effect.  When someone that does not have the Co-Op Mod installed and tries to join your game, they will not be allowed to.  The install disables this by default.
+
+We now make all of  the INI changes for you during the install.  Most all of the INI changes we make can be found in the V1.00 readme file.  Because of a limitation in InstallShield, the uninstall will not reverse the changes to the INIs.  Before we modify the INIs we make a backup of the files in a COOPBackup directory in the system directory.  You can copy these files back to your system directory after uninstalling Rune Co-Op to reverse our changes.
+
+
+Other updates and fixes
+
+1.	Moving Elevators and lifts fixed, will no longer drop client players through bottom or jitters when walking over or riding them.
+2.	Added new Fire Zombie in hell levels.
+3.	Added new Skeleton Warrior on levels Co-Op04 through 17.
+4.	Fixed trigger on level 32 also slowed down spawning rate of goblins attacking.
+5.	Added half way teleporters on just about every level.
+6.	14 levels split in 2 parts for better Internet multiplayer performance.
+7.	Removed many goblins and crabs from 1st 15 levels and replaced with the new Skeleton warrior.
+8.	 Fixed Boss Dwarf can no longer be knocked down by hammer.
+9.	 Fixed Boss Crab, he can no longer be flipped over from attacking him.
+10.	 The battle part 1& 2 has been changed, 1st part is only a viewable video part 2 is playable. With ships on station when the game starts, ship moving caused too much lag and made the level hard to play.
+11.	 Map 29, fixed Machine room for large gears being destroyed now works correctly.
+12.	 Map 33, added doors after Mech boss fight, added 3 pumps linked to the 3 doors.
+13.	 Sark levels have thinned down and health increased, also slowed timing on spawn rates.
+14.	 Map 28, added door to outer halls area opened by lever now...
+15.	 Map 17, added an extra event with Boss Trial Beast.
+16.	 Map 14, added door to 1st part of map with hidden pumps to open door. 
+17.	 Map 14, added secret hidden weapon to level “Broadsword”.
+18.	 Several maps fixed several lizards on levels fixed now able to be picked up.
+19.	 Several maps A.I. thinned down and health increased for better Multiplayer performance.
+20.	 Map 22 fixed, Door changed to unbreakable door, now opened by lever.
+21.	 Map 15 & 16 stairs fixed, made stairs wider for smoother navigation.
+22.	 Map 22 Boss health increased.
+23.	 Map 32 thinned down goblins falling from ceiling.
+24.	 Sark levels, 40% of Sarks thinned down and health increased for better multiplayer performance.
+25.	On several levels power runes have been fixed that were not showing up in the game.
+26.	14 more halfway teleporters have been added.
+27.	 Map 39, added a door at start of level. This door is timed at start of level to open
+28.	 Map 14, ending elevator slowed down.
+29.	 Map 25, Fight scene with Sigard and Sarks fixed, timing of fight was not correct now looks more accurate.
+30.	 Map 27 falling rocks dispatcher was not working correctly for the rumble cliffs, now fixed.
+31.	 Map 39, Conrak’s health has been increased.
+32.	 Map 12 Blade room doors are now set in sequence. Doors will open only after the 1st blade room pump has been pushed.
+33.	Map 36 Fire beast health and fire damage increased.
+34.	Map 41 Teleporter placed in canyon incase of death.
+35.	Map 40 Hole in floor made bigger for easier access when jumping up.
+36.	Map 04 fixed area that could cause player to fall through the floor.
+37.	Map 37 fixed pump to activate after Boss death. In rare instance main doors would close that could cause level to not end.
+38.	Map 14 added hidden levers for door on 1st floor to make better use of the entire level.
+
+
+Known Issues
+
+The new Skeleton Warrior model has a problem when you cut off their head or arms. The head does come off but it still looks like it’s on his body.  This was something we tried to fix but was just not able to figure out.  Sorry! But you will not be disappointed when you fight him.
+
+Clients getting out of water after swimming sometimes appear like they are leaning back to others.  This is really a deception, you really aren’t leaning so don’t worry.  Jumping back into the water and re-exiting sometimes fixes this condition.
+High Ping Times.  If you start to experience high ping time that is over 1000, stop what you are doing and have everyone else stop. Wait about 30 seconds; the ping should go back to normal.  We are not sure why this happens, but it is related to the network code. This does not happen often but when it does you need to be aware of it.  Hit your Caps lock key to see your ping times.
+
+Foreign Versions of Rune/Hall of Valhalla or Errors. 
+
+The German and French versions of Rune should work with Rune Co-Op.  Keep in mind if you have only the original Rune installed and try to join a HOV server running Co-Op you will not be allowed to and vise versa. The 2 game versions are incompatible. HOV clients can only join HOV servers. U.S HOV and the Foreign Version of HOV are compatible.  We suggest you keep the Rune and HOV installed in separate directories.  While researching the install we found the 1.07 does not include all of the changes from 1.06.  If you have problems it might be best to start over, install the V1.06 patch, V1.07 patch and then Rune Co-Op. 
+
+*If you get this error failed to enter Entry: Can’t find file for Package "creatureSnd" make sure your creatureSnd.uax is named like this, if not name it this way.
+
+*If you get a missing cdrom error, do this.  You will have to edit the Rune.ini file, it’s located in the: \Rune\System directory. Do a search for CDPATH once you locate that change the CDPATH=? To what ever your current cdrom driver letter is now.
+
+
+Performance
+D3D is not a very fast driver to use with your video card for playing Rune.  This is especially noticeable with the NVIDIA cards GForce 2, and GForce 3.  OpenGL has better performance.  You will have to adjust the video brightness (Gamma) if you use OpenGL from the desktop video properties.  Voodoo 3, 4 and 5 cards use Glide.  This is one of the best drivers for the Voodoo cards you can use.  
+
+
+We want to thank all of you out there that are still playing Rune.  The Co-Op Team decided to split many levels to reduce Internet lag and incorporate many other new features into Co-Op 1.2.  The new split-levels were either too long or too large in size.  This would cause the server to lag because there were too many AI entities and too much level architecture the server had to calculate and handle along with other players.  These maps were never originally intended for network play so these issues never arose in development so we decided to split the larger levels down from 4 to 5 megs in size and are now around 1.5 - 3 megs in size now.  You will notice that these levels load up very quickly now and have much better performance on the Internet.  AI have been added to areas that previously had none, this will give those who have memorized the maps something new to think about.  We have also trimmed down the existing AI in areas that had too many and beefed up the existing AI with more health.  Less AI means tougher AI.  We hope you all are happy with the changes we have made.  
+
+Enjoy!!
+
+Very special thanks to the Thors Hammer team for the use of their new Skeleton Warrior. This new A.I is badass!
+
+Thank you Scamp!  You’ve made Rune Co-Op even better.
+
+More Thanks go out to Dwight “Demandred/Creslin” Funk for creating the new professionally created
+Co-Op InstallShield installer.  Thanks DFunk!
+
+For any information about Rune Co-Op visit our home page. 
+
+http://rune.gamerzcity.co.uk/runecoop
+
+Visit Runes home page. Also visit Rune’s Official forum to get the latest info on
+Rune and Rune Co-Op.
+
+http://www.runegame.com
+
+
+Any Question or Comments?
+
+Feel free to contact us:
+
+Rick	dark88@san.rr.com
+Richard	cactusxx@pacbell.net
+Ricardo	ricochico@hotmail.com
+
+
+
+
